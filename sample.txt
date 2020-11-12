@@ -1,2 +1,11 @@
-hi lsv
-hello lsv
+1.docker build . -t mounikathatipalli/custom
+docker run -p 82:80 -d mounikathatipalli/custom
+
+
+this is in main job.
+
+2.docker build . -t mounikathatipalli/custom 
+in job2
+
+installation of jenkins master.
+and create a node using jnlp connection commands
